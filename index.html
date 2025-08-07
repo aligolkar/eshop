@@ -1,17 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>فروشگاه من</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/fontiran.css" />
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
-        <div class="topinfo">22</div>
-        <div class="logo"></div>
+        <div class="topinfo flex">
+          <ul class="accountlist flex">
+            <li class="accountlistitem">
+              <a href="" class="accountlistlink"
+                ><i class="fa-solid fa-user"></i>ثبت نام</a
+              >
+            </li>
+            <li class="accountlistitem">
+              <a href="" class="accountlistlink"
+                ><i class="fa-solid fa-lock"></i>ورود</a
+              >
+            </li>
+          </ul>
+          <div class="languages">
+            <img
+              class="fa-icon"
+              src="images/icons/iran.png"
+              alt="persian language"
+            />فارسی
+          </div>
+        </div>
+        <div class="header_info flex">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" />
+          </div>
+          <div class="searchbox flex">
+            <select name="" id="" class="categoryslist">
+              <option value="1">کامپیوتر</option>
+              <option value="2">موبایل</option>
+              <option value="3">شبکه</option>
+              <option value="4">پرینتر</option>
+            </select>
+            <input
+              type="text"
+              name=""
+              id=""
+              class="searchinput"
+              placeholder="عنوانی را برای جستجو وارد کنید"
+            />
+            <a href="" class="btnsearch"><i class="fas fa-search"></i></a>
+          </div>
+          <div class="contactus flex">
+            <div class="contactusicon">
+              <i class="fa-solid fa-headset contacticon"></i>
+            </div>
+            <div class="contactusinformation">
+              <span>شماره تماس فروشگاه</span>
+              <br />
+              <span>تلفن : 98112345678+</span>
+            </div>
+          </div>
+          <div class="cart flex">
+            <div class="contactusicon">
+              <i class="fas fa-shopping-basket carticon"></i>
+            </div>
+            <div class="contactusinformation">
+              <span>سبد خرید</span>
+              <br />
+              <span>2 محصول به مبغ 150,000 تومان</span>
+            </div>
+          </div>
+        </div>
         <nav class="mainnav"></nav>
       </header>
       <main></main>
